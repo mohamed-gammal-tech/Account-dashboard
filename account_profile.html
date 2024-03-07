@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+
+    <title>Printavio</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.0/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="container light-style flex-grow-1 container-p-y">
+      <h4 class="font-weight-bold py-3 mb-4">Account Profile</h4>
+      <div class="card overflow-hidden">
+        <div class="tab-pane fade active show" id="account-general">
+          <div class="card-body media align-items-center">
+            <img
+              src="https://bootdey.com/img/Content/avatar/avatar1.png"
+              alt
+              class="d-block ui-w-80"
+            />
+            <div class="media-body ml-4">
+              <input type="text" disabled="disabled" value="Mohamed Gamal" />
+            </div>
+          </div>
+          <hr class="border-light m-0" />
+          <div class="card-body">
+            <div class="form-group">
+              <label class="form-label">Username</label>
+              <input
+                type="text"
+                disabled="disabled"
+                class="form-control mb-1"
+                value="Username"
+              />
+            </div>
+            <div class="form-group">
+              <label class="form-label">E-mail</label>
+              <input
+                type="text"
+                class="form-control mb-1"
+                value="nmaxwell@mail.com"
+                disabled="disabled"
+              />
+              <div class="alert alert-warning mt-3">
+                Your email is not confirmed. Please check your inbox.<br />
+                <a href="javascript:void(0)">Resend confirmation</a>
+              </div>
+            </div>
+            <div class="form-group">
+              <label class="form-label">Phone Number</label>
+              <input
+                type="text"
+                disabled="disabled"
+                class="form-control"
+                value="0100000000."
+              />
+            </div>
+            <div class="form-group">
+              <label class="form-label">Adress</label>
+              <input
+                type="text"
+                disabled="disabled"
+                class="form-control"
+                value="39-Ibn Oqil Alex"
+              />
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="text-right mt-3">
+        <button type="button" class="btn btn-primary">
+          <a
+            href="account_settings.html"
+            style="text-decoration: none; color: #fff"
+            >Edit Profile
+          </a></button
+        >&nbsp;
+        <button type="button" class="btn btn-default">Back</button>
+      </div>
+    </div>
+  </body>
+</html>
